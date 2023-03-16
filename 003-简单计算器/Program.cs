@@ -1,4 +1,5 @@
-﻿namespace _003_简单计算器
+﻿//数的输入与输出
+namespace _003_简单计算器
 {
     internal class Program
     {
