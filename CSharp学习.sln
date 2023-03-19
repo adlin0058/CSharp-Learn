@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003-简单计算器", "003-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004-数组", "004-数组\004-数组.csproj", "{1F0549AE-FAA2-4716-B0C0-E69B10C3CCB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005-数组插入", "005-数组插入\005-数组插入.csproj", "{EBA7550D-9EDE-442E-843F-61934F864B6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005-数组插入", "005-数组插入\005-数组插入.csproj", "{EBA7550D-9EDE-442E-843F-61934F864B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-真素数", "06-真素数\06-真素数.csproj", "{A3A51406-A73C-418A-9669-98C62852848D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EBA7550D-9EDE-442E-843F-61934F864B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA7550D-9EDE-442E-843F-61934F864B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA7550D-9EDE-442E-843F-61934F864B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A51406-A73C-418A-9669-98C62852848D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A51406-A73C-418A-9669-98C62852848D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A51406-A73C-418A-9669-98C62852848D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A51406-A73C-418A-9669-98C62852848D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
