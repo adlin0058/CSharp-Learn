@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-属性", "11-属性\11-�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-继承", "12-继承\12-继承.csproj", "{03F8F5D1-65FD-4E85-B021-861167E16957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-抽象类", "13-抽象类\13-抽象类.csproj", "{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{03F8F5D1-65FD-4E85-B021-861167E16957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F8F5D1-65FD-4E85-B021-861167E16957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F8F5D1-65FD-4E85-B021-861167E16957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
