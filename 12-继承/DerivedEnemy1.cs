@@ -14,5 +14,11 @@ namespace _12_继承
             Attack = attack;
             Speed = speed;
         }
+
+        //隐藏方法，父类中不需要virtual
+        public new void Ai()
+        {
+            Console.WriteLine("小怪傻傻的AI");
+        }
     }
 }
