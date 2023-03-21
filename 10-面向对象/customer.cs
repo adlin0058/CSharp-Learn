@@ -11,9 +11,30 @@ namespace _10_面向对象
     {
         public string name;
         public string address;
-        public int age;
+        private int age;
         public string creatTime;
 
+        //构造函数
+        public customer() {
+            Console.WriteLine("构造函数");
+        }
+        //构造函数的重构
+        public customer (string name, string address, int age ,string creatTime)
+        {
+            this.name = name;
+            this.address = address;
+            this.age = age;
+            this.creatTime = creatTime;
+        }
+        public void SetAge(int age)
+        {
+            if (age < 0) return;
+            this.age = age;
+        }
+        public int GetAge()
+        {
+            return age;
+        }
         public void Show()
         {
             Console.WriteLine("名字：" + name);

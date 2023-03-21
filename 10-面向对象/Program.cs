@@ -2,15 +2,25 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            customer c1 = new customer();
-            c1.name = "李明";
-            c1.age = 21;
-            c1.address = "上海";
-            c1.creatTime = "2023年3月20日";
+            //一个类可以有很多对象
+            //类==模板
+            customer lm = new customer();//实例化对象
+            //lm.name = "李明";
+            //lm.SetAge(21);
+            //lm.address = "上海";
+            //lm.creatTime = "2023年3月20日";
+            customer zhangsan = new customer("zhangsan","beijing",22,"2023年");
+            lm.Show();
+            zhangsan.Show();
+            //向量类
+            vector3 v1 = new vector3();
+            v1.SetX(1f);
+            v1.SetY(2f);
+            v1.SetZ(3f);
+            Console.WriteLine(v1.Length());
 
-            c1.Show();
         }
     }
 }
