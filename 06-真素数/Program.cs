@@ -14,7 +14,7 @@
             else
             {
                 bool flag = true;
-                for (int i = 2; i < n ; i++)
+                for (int i = 2; i < MathF.Sqrt(n)  ; i++)
                 {
                     
                     if (n % i == 0)
@@ -32,31 +32,38 @@
             } 
         }
 
-        //相反
+        //反转
         static int Reversal(int n)
         {
-            int m = 0;
-            int count = 0;
-            //这个数有几位
-            int temp = n;
-            while (temp!=0)
-            {
-               count++;
-               temp = temp / 10;
-            }
-            temp = n;
-            //ints[]用于存放这个数 反过来的数 的每一位
-            int[] ints = new int[count];
-            for (int i = 0; i < count; i++)
-            {
-                ints[i] = temp % 10;
-                temp = temp / 10;
-            }
-            //反向组装起来
-            for (int i = 0; i < count; i++)
-            {
-                m = m * 10 + ints[i];
-            }
+            //int m = 0;
+            //int count = 0;
+            ////这个数有几位
+            //int temp = n;
+            //while (temp != 0)
+            //{
+            //    count++;
+            //    temp = temp / 10;
+            //}
+            //temp = n;
+            ////ints[]用于存放这个数 反过来的数 的每一位
+            //int[] ints = new int[count];
+            //for (int i = 0; i < count; i++)
+            //{
+            //    ints[i] = temp % 10;
+            //    temp = temp / 10;
+            //}
+            ////反向组装起来
+            //for (int i = 0; i < count; i++)
+            //{
+            //    m = m * 10 + ints[i];
+            //}
+            //return m;
+            string str = Convert.ToString(n);//转为字符串
+            char[] chars = str.ToCharArray();
+            Array.Reverse(chars);
+            str = new string(chars);
+            int m = Convert.ToInt32(str);
+
             return m;
         }
         static void Main(string[] args)
@@ -74,10 +81,14 @@
             for(int i = m ; i < n + 1 ; i++)
             {
                 //如果这个数和相反都为素数，则输出
-                if (isPrime(i) && isPrime(Reversal(i)))
+                if (isPrime(i))
                 {
+                    if(isPrime(Reversal(i)))
+                    {
                         Flag = true;
                         Console.Write(i + " ");
+                    }
+                        
                 }
             }
             //Flag==false，未输出一个素数
