@@ -19,8 +19,10 @@
             //匿名数据类型
             var age2 = 22;
             //给age2初始化后，类型确定，不可修改类型
+            Console.WriteLine(age2);
             //可赋值，相同类型
             age2 = 33;
+            Console.WriteLine(age2);
             age2 = 44;
             Console.WriteLine(age2);
 
