@@ -32,7 +32,8 @@ namespace _12_继承
             Console.WriteLine("Speed:"+Speed);
             base.Ai();
         }
-        public new void Ai()
+        //override重写
+        public override void Ai()
         {
             Console.WriteLine("Boss的特有的Ai攻击");
         }

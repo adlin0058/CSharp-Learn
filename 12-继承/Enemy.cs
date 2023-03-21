@@ -12,11 +12,13 @@ namespace _12_继承
         protected int Attack;
         protected int Speed;
 
-        public void Move()
+        //virtual虚函数
+        //虚函数在使用时会先检查是否重写
+        public virtual void Move()
         {
             Console.WriteLine("移动");
         }
-        public void Ai()
+        public virtual void Ai()
         {
             Console.WriteLine("AI攻击");
         }
