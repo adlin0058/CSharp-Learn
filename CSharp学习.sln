@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-异常处理", "09-面�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-面向对象", "10-面向对象\10-面向对象.csproj", "{C4CB7DD0-CB93-48E2-A9A9-2B88CDA60E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-属性", "11-属性\11-属性.csproj", "{D1E0CF5D-CCBC-4A4E-A4AC-D607A40B977B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-属性", "11-属性\11-属性.csproj", "{D1E0CF5D-CCBC-4A4E-A4AC-D607A40B977B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-继承", "12-继承\12-继承.csproj", "{03F8F5D1-65FD-4E85-B021-861167E16957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-继承", "12-继承\12-继承.csproj", "{03F8F5D1-65FD-4E85-B021-861167E16957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-抽象类", "13-抽象类\13-抽象类.csproj", "{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-抽象类与密封类", "13-抽象类\13-抽象类与密封类.csproj", "{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-子类的构造", "14-子类的构造\14-子类的构造.csproj", "{985725AC-0BA6-4151-BA9A-CC44F043C72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9847901E-4382-4BE1-9532-CBD1DE6EE7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985725AC-0BA6-4151-BA9A-CC44F043C72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985725AC-0BA6-4151-BA9A-CC44F043C72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985725AC-0BA6-4151-BA9A-CC44F043C72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985725AC-0BA6-4151-BA9A-CC44F043C72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
