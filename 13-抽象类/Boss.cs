@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace _13_抽象类与密封类
 {
-    internal class Boss : Enemy
+    public class Boss : Enemy
     {
         public Boss(int hp,int attack)
         {

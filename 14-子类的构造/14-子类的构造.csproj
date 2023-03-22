@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\13-抽象类\13-抽象类与密封类.csproj" />
+  </ItemGroup>
+
 </Project>
