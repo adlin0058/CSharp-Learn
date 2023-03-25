@@ -12,7 +12,7 @@ namespace _18_自己的集合类
     {
         private T[] list = new T[0];
 
-        //显示
+        //显示每个
         public void Show()
         {
             for (int i = 0; i < count; i++)
