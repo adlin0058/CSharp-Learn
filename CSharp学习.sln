@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21-Action委托", "21-Actio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22-Func委托", "22-Fuc委托\22-Func委托.csproj", "{30A63A89-B07E-4B5A-AF99-ED7C1BF25560}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-通过委托进行冒泡排序", "23-通过委托进行冒泡排序\24-通过委托进行冒泡排序.csproj", "{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-冒泡排序", "23-冒泡排序\23-冒泡排序.csproj", "{7DFD4238-D67C-4E69-88E7-81429C72FC55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{30A63A89-B07E-4B5A-AF99-ED7C1BF25560}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30A63A89-B07E-4B5A-AF99-ED7C1BF25560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30A63A89-B07E-4B5A-AF99-ED7C1BF25560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
