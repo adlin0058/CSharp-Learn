@@ -41,15 +41,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18-自己的集合类", "18
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19-正则表达式", "19-正则表达式\19-正则表达式.csproj", "{48D6BBEB-709E-4AEC-BD28-591B0A9716B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-委托", "20-委托\20-委托.csproj", "{238D6E9E-468F-43BF-A0A7-9EE7637C64EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20-委托", "20-委托\20-委托.csproj", "{238D6E9E-468F-43BF-A0A7-9EE7637C64EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21-Action委托", "21-Action委托\21-Action委托.csproj", "{75CD876E-95BC-4B1A-BD4D-C843F67A508E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21-Action委托", "21-Action委托\21-Action委托.csproj", "{75CD876E-95BC-4B1A-BD4D-C843F67A508E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22-Func委托", "22-Fuc委托\22-Func委托.csproj", "{30A63A89-B07E-4B5A-AF99-ED7C1BF25560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22-Func委托", "22-Fuc委托\22-Func委托.csproj", "{30A63A89-B07E-4B5A-AF99-ED7C1BF25560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-通过委托进行冒泡排序", "23-通过委托进行冒泡排序\24-通过委托进行冒泡排序.csproj", "{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24-通过委托进行冒泡排序", "23-通过委托进行冒泡排序\24-通过委托进行冒泡排序.csproj", "{A2BBD836-D31B-4E91-9DD7-9BE4ABF16F73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-冒泡排序", "23-冒泡排序\23-冒泡排序.csproj", "{7DFD4238-D67C-4E69-88E7-81429C72FC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23-冒泡排序", "23-冒泡排序\23-冒泡排序.csproj", "{7DFD4238-D67C-4E69-88E7-81429C72FC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-多播委托和匿名方法", "25-多播委托和匿名方法\25-多播委托和匿名方法.csproj", "{C41DFCEF-8292-475B-9B24-F5BA8BB47511}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFD4238-D67C-4E69-88E7-81429C72FC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
