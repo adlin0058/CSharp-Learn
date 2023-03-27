@@ -16,5 +16,10 @@ namespace _23_通过委托进行冒泡排序
             Name = name;
             Salary = salary;
         }
+
+        public static bool CompareSalary(RoomMates r1, RoomMates r2)
+        {
+            return r1.Salary > r2.Salary;
+        }
     }
 }
