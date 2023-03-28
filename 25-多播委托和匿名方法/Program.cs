@@ -32,7 +32,21 @@
 
             Func<int, int> action2 = Test3;
             action2 += Test4;
-            Console.WriteLine(action2(1));//若有返回值的方法只返回最后一个
+            Console.WriteLine(action2(1));//若有返回值的方法 只返回最后一个
+
+            Delegate[] delegates = action1.GetInvocationList();
+            foreach (Delegate d in delegates)
+            {
+                d.DynamicInvoke();
+            }
+
+            //匿名方法  一般代码量小
+            Func<int, int, int> plus = delegate (int x, int y)
+            {
+                return x + y;
+            };
+            int res = plus(1, 2);
+            Console.WriteLine(res);
         }
     }
 }

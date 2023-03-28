@@ -51,7 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24-通过委托进行冒泡
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23-冒泡排序", "23-冒泡排序\23-冒泡排序.csproj", "{7DFD4238-D67C-4E69-88E7-81429C72FC55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-多播委托和匿名方法", "25-多播委托和匿名方法\25-多播委托和匿名方法.csproj", "{C41DFCEF-8292-475B-9B24-F5BA8BB47511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25-多播委托和匿名方法", "25-多播委托和匿名方法\25-多播委托和匿名方法.csproj", "{C41DFCEF-8292-475B-9B24-F5BA8BB47511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-Lambda表达式", "26-Lambda表达式\26-Lambda表达式.csproj", "{AFE1EDC3-B5E1-4795-970B-DE64799E2895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27-寝爹下楼", "27-寝爹下楼\27-寝爹下楼.csproj", "{99ACD29F-CC96-4AB9-A299-4E6E8A95ED15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,14 @@ Global
 		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41DFCEF-8292-475B-9B24-F5BA8BB47511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE1EDC3-B5E1-4795-970B-DE64799E2895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE1EDC3-B5E1-4795-970B-DE64799E2895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE1EDC3-B5E1-4795-970B-DE64799E2895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE1EDC3-B5E1-4795-970B-DE64799E2895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99ACD29F-CC96-4AB9-A299-4E6E8A95ED15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99ACD29F-CC96-4AB9-A299-4E6E8A95ED15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99ACD29F-CC96-4AB9-A299-4E6E8A95ED15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ACD29F-CC96-4AB9-A299-4E6E8A95ED15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
