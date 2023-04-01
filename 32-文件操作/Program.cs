@@ -19,24 +19,41 @@
             //Console.WriteLine(text);
 
             //流
-            FileStream readFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\file.zip", FileMode.Open, FileAccess.Read);
-            //读每一字节，然后指针右移
-            //readFileStream.ReadByte();
+            //FileStream readFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\file.zip", FileMode.Open, FileAccess.Read);
+            ////读每一字节，然后指针右移
+            ////readFileStream.ReadByte();
 
-            FileStream writeFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\fileCopy.zip", FileMode.Create, FileAccess.Write);
+            //FileStream writeFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\fileCopy.zip", FileMode.Create, FileAccess.Write);
             //写字节
             //writeFileStream.WriteByte();
 
             //将readFileStream的每一字节复制到writeFileStream
-            int nextByte = -1;
-            while ((nextByte = readFileStream.ReadByte()) != -1)
+            //    int nextByte = -1;
+            //    while ((nextByte = readFileStream.ReadByte()) != -1)
+            //    {
+            //        writeFileStream.WriteByte((byte)nextByte);
+            //    }
+            //    //关闭流
+            //    //先开的流后关闭
+            //    writeFileStream.Close();
+            //    readFileStream.Close();
+            //}
+            DateTime before = DateTime.Now;
+            FileStream readFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\file.zip", FileMode.Open, FileAccess.Read);
+            FileStream writeFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\fileCopy.zip", FileMode.Create, FileAccess.Write);
+
+            byte[] buffer = new byte[1024];
+            int count = 0;
+            //                      将数据暂时存放的位置↓       ↓一次存1024个字节
+            while ((count = readFileStream.Read(buffer, 0, 1024)) != 0)//若没有读取到字符返回0
             {
-                writeFileStream.WriteByte((byte)nextByte);
+                writeFileStream.Write(buffer, 0, count);
             }
-            //关闭流
-            //先开的流后关闭
-            writeFileStream.Close();
-            readFileStream.Close();
+
+            DateTime after = DateTime.Now;
+
+            TimeSpan ts = after - before;
+            Console.WriteLine(ts.TotalMilliseconds);
         }
     }
 }
