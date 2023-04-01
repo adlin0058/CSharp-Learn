@@ -20,7 +20,10 @@
             //可以调用但错误↓   没有下楼无法完成委托
             //father.DownStairDelegate();
             //要避免这情况    应使用event
-            //无法执行 father.DownStairDelegate();
+            //无法执行 father.DownStairDelegate();无法在外部调用委托
+            //无法执行赋值（+=）    可以增加或减少事件（+=，-=）
+
+            //总结：事件是受限的委托
         }
     }
 }
