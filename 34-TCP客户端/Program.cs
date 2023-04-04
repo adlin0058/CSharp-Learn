@@ -27,7 +27,6 @@ namespace _34_TCP客户端
             int length = tcpClient.Receive(buffer);
             string message1 = Encoding.UTF8.GetString(buffer);
             Console.WriteLine("接收的数据是：" + message1);
-
             tcpClient.Close();
         }
     }
