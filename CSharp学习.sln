@@ -65,7 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30-资源访问冲突", "30
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31-死锁", "31-死锁\31-死锁.csproj", "{8247405C-8C84-4D77-A3CE-A47E9A6783C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32-文件操作", "32-文件操作\32-文件操作.csproj", "{A9819C1D-7D92-4845-A94C-929C8BB227C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32-文件操作", "32-文件操作\32-文件操作.csproj", "{A9819C1D-7D92-4845-A94C-929C8BB227C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33-服务端TCPServer", "33-服务端TCPServer\33-服务端TCPServer.csproj", "{9EDD4BE9-A661-4415-8E1A-34697E3575AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34-TCP客户端", "34-TCP客户端\34-TCP客户端.csproj", "{73B058AA-2911-4947-9F04-1EBC6946EB8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,14 @@ Global
 		{A9819C1D-7D92-4845-A94C-929C8BB227C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9819C1D-7D92-4845-A94C-929C8BB227C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9819C1D-7D92-4845-A94C-929C8BB227C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDD4BE9-A661-4415-8E1A-34697E3575AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDD4BE9-A661-4415-8E1A-34697E3575AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDD4BE9-A661-4415-8E1A-34697E3575AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDD4BE9-A661-4415-8E1A-34697E3575AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B058AA-2911-4947-9F04-1EBC6946EB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B058AA-2911-4947-9F04-1EBC6946EB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B058AA-2911-4947-9F04-1EBC6946EB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B058AA-2911-4947-9F04-1EBC6946EB8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

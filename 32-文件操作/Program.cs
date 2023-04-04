@@ -38,6 +38,7 @@
             //    writeFileStream.Close();
             //    readFileStream.Close();
             //}
+            //时间戳1
             DateTime before = DateTime.Now;
             FileStream readFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\file.zip", FileMode.Open, FileAccess.Read);
             FileStream writeFileStream = new FileStream(@"D:\CSharpWorkspace\CSharp学习\32-文件操作\fileCopy.zip", FileMode.Create, FileAccess.Write);
@@ -50,8 +51,9 @@
                 writeFileStream.Write(buffer, 0, count);
             }
 
+            //时间戳2
             DateTime after = DateTime.Now;
-
+            //时间戳2-1
             TimeSpan ts = after - before;
             Console.WriteLine(ts.TotalMilliseconds);
         }
