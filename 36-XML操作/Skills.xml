@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<skills>
+	<skill>
+		<id>001</id>
+		<name lang="cn">大逼斗</name>
+		<damagetype>physical damage</damagetype>
+		<damage>9999</damage>
+	</skill>
+	<skill>
+		<id>002</id>
+		<name>退！退！退！</name>
+		<damagetype>emotional damage</damagetype>
+		<damage>8888</damage>
+	</skill>
+	<skill>
+		<id>002</id>
+		<name>Biu~嘣！</name>
+		<damagetype>real damage</damagetype>
+		<damage>9999999</damage>
+	</skill>
+</skills>
+<!--注意！标签一般为小写-->
+<!--lang="cn"代表语言为中文，可以设置多国语言-->
