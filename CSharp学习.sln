@@ -75,9 +75,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35-UDP服务端", "35-UDP�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35-UDP客户端", "35-UDP客户端\35-UDP客户端.csproj", "{74D47584-1C33-4BB3-95CD-7C8F9791D2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36-XML操作", "36-XML操作\36-XML操作.csproj", "{23E77D2D-158D-4B77-B9C5-93C5D163B2F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36-XML操作", "36-XML操作\36-XML操作.csproj", "{23E77D2D-158D-4B77-B9C5-93C5D163B2F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37-JSON操作", "37-JSON操作\37-JSON操作.csproj", "{0988EE59-72F9-4CFF-819B-F241813B5303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37-JSON操作", "37-JSON操作\37-JSON操作.csproj", "{0988EE59-72F9-4CFF-819B-F241813B5303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38-LINQ", "38-LINQ\38-LINQ.csproj", "{5BFBC282-D079-4A2C-BF3F-76E3841543C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{0988EE59-72F9-4CFF-819B-F241813B5303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0988EE59-72F9-4CFF-819B-F241813B5303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0988EE59-72F9-4CFF-819B-F241813B5303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFBC282-D079-4A2C-BF3F-76E3841543C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFBC282-D079-4A2C-BF3F-76E3841543C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFBC282-D079-4A2C-BF3F-76E3841543C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFBC282-D079-4A2C-BF3F-76E3841543C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
